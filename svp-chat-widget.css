@@ -44,3 +44,17 @@ body {
   background: #C4A889;
   color: #111;
 }
+
+/* ✅ Rebrand footer text from n8n to North Agent */
+.chat-widget-footer a {
+  display: none !important; /* Hide original n8n link */
+}
+
+.chat-widget-footer::before {
+  content: "🤖 Powered by North Agent AI";
+  display: block;
+  color: #C4A889;        /* Matches warm beige accent */
+  font-size: 12px;
+  text-align: center;
+  margin-top: 6px;
+}
