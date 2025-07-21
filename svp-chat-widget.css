@@ -1,0 +1,46 @@
+/* svp-chat-widget.css */
+
+/* Global body styling */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #F9F9F9;
+  color: #EAEAEA;
+  margin: 0;
+  padding: 0;
+}
+
+/* Chat widget floating button */
+.chat-widget-launcher {
+  background-color: #C4A889; /* Warm beige accent */
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Widget header */
+.chat-widget-header {
+  background-color: rgba(20, 20, 20, 0.85); /* Semi-transparent dark overlay */
+  color: #FFFFFF;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+/* Widget body */
+.chat-widget-body {
+  background: #111111; /* Deep dark background */
+  color: #EAEAEA; /* Light gray text */
+}
+
+/* Buttons */
+.chat-widget-button {
+  background: transparent;
+  border: 1px solid #C4A889;
+  color: #C4A889;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: 0.3s ease;
+}
+
+.chat-widget-button:hover {
+  background: #C4A889;
+  color: #111;
+}
