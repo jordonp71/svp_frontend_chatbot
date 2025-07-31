@@ -11,14 +11,14 @@ body {
 
 /* Chat widget floating button */
 .chat-widget-launcher {
-  background-color: #C4A889; /* Warm beige accent */
+  background-color: #D4B68A; /* Warm beige accent */
   border-radius: 50%;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 /* Widget header */
 .chat-widget-header {
-  background-color: rgba(20, 20, 20, 0.85); /* Semi-transparent dark overlay */
+  background-color: #1A1A1A; /* Semi-transparent dark overlay */
   color: #FFFFFF;
   font-weight: 500;
   letter-spacing: 0.5px;
@@ -26,23 +26,23 @@ body {
 
 /* Widget body */
 .chat-widget-body {
-  background: #111111; /* Deep dark background */
-  color: #EAEAEA; /* Light gray text */
+  background: #1A1A1A; /* Deep dark background */
+  color: #F5F5F5; /* Light gray text */
 }
 
 /* Buttons */
 .chat-widget-button {
   background: transparent;
-  border: 1px solid #C4A889;
-  color: #C4A889;
+  border: 1px solid #D4B68A;
+  color: #D4B68A;
   padding: 8px 16px;
   border-radius: 6px;
   transition: 0.3s ease;
 }
 
 .chat-widget-button:hover {
-  background: #C4A889;
-  color: #111;
+  background: #D4B68A;
+  color: #111111;
 }
 
 /* ✅ Rebrand footer text from n8n to North Agent */
