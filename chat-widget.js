@@ -4,10 +4,10 @@
     const styles = `
         .n8n-chat-widget {
               .n8n-chat-widget {
-    --chat--color-primary: var(--n8n-chat-primary-color, #C4A889);  /* warm beige */
-    --chat--color-secondary: var(--n8n-chat-secondary-color, #B89D7F);  /* subtle variation */
-    --chat--color-background: var(--n8n-chat-background-color, #1A1A1A);  /* charcoal */
-    --chat--color-font: var(--n8n-chat-font-color, #F5F5F5);  /* light text */
+    --chat--color-primary: var(--n8n-chat-primary-color, #854fff);
+    --chat--color-secondary: var(--n8n-chat-secondary-color, #6b3fd4);
+    --chat--color-background: var(--n8n-chat-background-color, #ffffff);
+    --chat--color-font: var(--n8n-chat-font-color, #333333);  /* light text */
             font-family: 'Geist Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         }
 
