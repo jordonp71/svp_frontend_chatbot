@@ -19,29 +19,19 @@
   <script>
     window.ChatWidgetConfig = {
       webhook: {
-                url: 'https://jordon71.app.n8n.cloud/webhook/19638bca-2106-4ac1-acdf-1021f64980d0/chat',
-                route: 'general'
-            },
+        url: 'https://jordon71.app.n8n.cloud/webhook/19638bca-2106-4ac1-acdf-1021f64980d0/chat',
+        route: 'general'
+      },
       branding: {
         logo: 'https://svp-assets.s3.us-east-1.amazonaws.com/svpstudios.png',
         name: 'SVP Studios',
         welcomeText: 'Welcome to SVP Studios 👋 How can we help?',
         responseTimeText: 'We’ll get back to you shortly.'
-      },
-      style: {
-        primaryColor: '#C4A889',         // warm beige accent
-        secondaryColor: '#111111',       // deep dark background
-        position: 'right',
-        backgroundColor: '#111111',
-        fontColor: '#EAEAEA',
-        fontFamily: 'Inter, sans-serif',
-        borderRadius: '8px'
       }
     };
   </script>
 
-  <!-- ✅ Chat Widget Script -->
- <script src="https://cdn.jsdelivr.net/gh/WayneSimpson/n8n-chatbot-template@ba944c3/chat-widget.js"></script>
-
+  <!-- ✅ Load chat widget -->
+  <script src="chat-widget.js"></script>
 </body>
 </html>
